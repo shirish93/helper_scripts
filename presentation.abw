@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="79" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.0" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="0.99.2" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:en-US; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Fri Aug 18 17:08:26 2017
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">root</m>
+<m key="dc.date">Wed Aug 16 16:13:52 2017
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="43" edit-time="10510" last-saved="1503055406" uid="1f4144e6-826d-11e7-8ca1-b1ad4937277b">
+<version id="5" started="1502879332" uid="568bb1cc-827a-11e7-8ca1-b1ad4937277b" auto="0" top-xid="6"/>
+<version id="14" started="1503028063" uid="3818daf8-83c9-11e7-9120-96cb94dedaee" auto="0" top-xid="23"/>
+<version id="32" started="1503033912" uid="ddf2e540-83d8-11e7-85e4-a3ebc2a14acc" auto="0" top-xid="28"/>
+<version id="43" started="1503053969" uid="a707bdba-8407-11e7-9514-95316ba8dc41" auto="0" top-xid="56"/>
+</history>
+<styles>
+<s type="P" name="Normal" followedby="Current Settings" props="font-weight:normal; font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; text-align:left; widows:2; font-style:normal; text-indent:0in; text-position:normal; font-variant:normal; bgcolor:transparent; line-height:1.0; text-decoration:none; margin-bottom:0pt; margin-right:0pt; font-size:12pt; font-stretch:normal"/>
+</styles>
+<pagesize pagetype="Letter" orientation="portrait" width="8.500000" height="11.000000" units="in" page-scale="1.000000"/>
+<section xid="5" props="page-margin-footer:0.5in; page-margin-header:0.5in">
+<p style="Normal" xid="6">Human Gesture Classification  by Brute-Force Machine Learning for Exergaming  in Physiotheapy<c></c></p>
+<p style="Normal" xid="1"><c></c><c></c></p>
+<p style="Normal" xid="2">by Deboeverie et al.<c></c></p>
+<p style="Normal" xid="3"><c></c><c></c></p>
+<p style="Normal" xid="4"><c></c><c></c></p>
+<p style="Normal" xid="7">* novel approach for human gesture classification  on skeletal data<c></c></p>
+<p style="Normal" xid="8">* application in exergaming (exercise-gaming) in physiotherapy<c></c></p>
+<p style="Normal" xid="9">* Use Random Forests classifier to recognize dynamic (changing) gestures<c></c></p>
+<p style="Normal" xid="11">* Make predictionon frame-by-frame basis<c></c></p>
+<p style="Normal" xid="10">*  Handle temporal direction by majority voting in sliding window over consecutive predictions  <c></c></p>
+<p style="Normal" xid="12">* Based on observation that dynamic gestures show sufficient dissimilar postures<c></c></p>
+<p style="Normal" xid="13">* Can be run online, thus recognize gestures early: Is an advantage when controlling a game by automatic gesture recognition<c></c></p>
+<p style="Normal" xid="14">* Ground-truth is easily obtainable since  all postures in a gesture get same label, without any discretization<c></c></p>
+<p style="Normal" xid="16">* New gestures can easily be added that way, a plus for adaptive game development.<c></c></p>
+<p style="Normal" xid="17">* Use the microsoft Kinect sensor to detect posture: easy to acquire, cheap, and readily-available.<c></c></p>
+<p style="Normal" xid="18"><c></c><c></c></p>
+<p style="Normal" xid="19">----------<c></c></p>
+<p style="Normal" xid="20"><c></c><c></c></p>
+<p style="Normal" xid="21">* “Gesture Recognition” is ‘automatically identifying and interpreting human body movements using a set of sensors’<c></c></p>
+<p style="Normal" xid="22">* Targeted at children (and adults) n rehabilitation or fitness program  to encourage sutaining of efforts<c></c></p>
+<p style="Normal" xid="23">* Exergaming (exercise + gaming) offers motavation, remote monitoring, and coaching in e-environment. <c></c></p>
+<p style="Normal" xid="24">* Uses RGB data from video to extract skeletal node data, and uses a general Random Forests classifier (RF) to recognize dynamic gestures</p>
+<p style="Normal" xid="25">* Handles temporal dimension by majority voting in sliding window over consecutive classifier predictions</p>
+<p style="Normal" xid="26">* Allows for online predictions: crucial when controlling a game, since feedback needs real time response</p>
+<p style="Normal" xid="27">* Ground truth can be easily obtained, as all postures in dynamic gesture get same label, without being discretized, also making easy extension by adding new gestures</p>
+<p style="Normal" xid="29"><c></c><c></c></p>
+<p style="Normal" xid="30">--------</p>
+<p style="Normal" xid="31"><c></c><c></c></p>
+<p style="Normal" xid="32">* RF considered robust, well-performant, and computationally inexpensive to train and execute</p>
+<p style="Normal" xid="34">* used kinet sensors, that’s cheap, and easily available.</p>
+<p style="Normal" xid="36">* An RF is an ensemble classifier compost of many binary decision trees, each trying to solve the same task.</p>
+<p style="Normal" xid="37">* Takes  set of features, and returns class label as output.</p>
+<p style="Normal" xid="39">	* set of nodes connected by branches</p>
+<p style="Normal" xid="40">	* each non-terminal node compares the input to an existing set of parameters (as learned in training), and passes on to one of the two child nodes. A node that does not have a child in the expected position outputs the decision.</p>
+<p style="Normal" xid="41"><c></c><c></c></p>
+<p style="Normal" xid="42">* easy to use and understand, can be trained easily. difficult to train.</p>
+<p style="Normal" xid="45">* consider bias-variance tradeoff. Decision tree is low-bias, high-variance classifier. bias-&gt; number of samples that are misclassified. variance: variablility of the number of misclassification, across different training population</p>
+<p style="Normal" xid="49">* Use ‘bagging’ method: that is, sampling with replacement, so some training samples may be resampled, and taking averages from across different resampled runs.</p>
+<p style="Normal" xid="50">* however, the more trees are created  to average, the longer is the run.</p>
+<p style="Normal" xid="53">* run different experiments to identify the ideal number of trees to train (hyperparameter optimization)</p>
+<p style="Normal" xid="55">* RF is a low-bias low-variance ensemble classifier, trained by bootstrapping and random feature selection.</p>
+<p style="Normal" xid="56">* good for this case because invariant to overfitting, and noise-robust</p>
+<p style="Normal" xid="54"><c></c><c></c></p>
+<p style="Normal" xid="46"><c></c><c></c></p>
+<p style="Normal" xid="47"><c></c>* Features used: for each frame, 25 joints were used, with each joint described by 7 points: 3 for 3-d coordinates, and angle of joint as four quaternion numbers. Thus each frame was represented by a 175-dimensional vector</p>
+<p style="Normal" xid="57"><c></c></p>
+<p style="Normal" xid="58">* Ground truth obtained by providing the classifier with multiple samples of a similarly-tagged position, so it can identify the ‘ground truth’ of a particular position, without having to engineer features manually</p>
+<p style="Normal" xid="59"><c></c></p>
+<p style="Normal" xid="60">*  Classification based on majority voting in a sliding window.</p>
+<p style="Normal" xid="61">	* temporal dimension of human gestures is handled by majority voting in sliding window over consecutive predictions of classfier.</p>
+<p style="Normal" xid="62"> 	*  the size of the sliding window is determined empirically (that is, hand-coded), and it was discovered that 30 seconds is a good value.</p>
+<p style="Normal" xid="63"><c></c></p>
+<p style="Normal" xid="64">	* this method has many advantages:</p>
+<p style="Normal" xid="65">		* improved classification performance</p>
+<p style="Normal" xid="66">		* reduces the undesirable effect of abrupt change in observation caused by imcomplete skeletons or noisy skeletal data</p>
+<p style="Normal" xid="67">		* gestures are recognized early, since reliability is built when sliding the window</p>
+<p style="Normal" xid="68">Conclusion</p>
+<p style="Normal" xid="71"><c></c></p>
+<p style="Normal" xid="72">* Had used 23 movements in their dataset</p>
+<p style="Normal" xid="73">* observe that all gestures had high overlap with neutral (because neutral occurs during gesture transition), so annotation was likely noisy</p>
+<p style="Normal" xid="74">* despite the overlaop, non-overlap postures were sufficient to clasify gestures</p>
+<p style="Normal" xid="75">* by dividing the frames into gesture begin and gesture end, they were able to avoid annotating every frame, thus had only 690 annotations instead of 26534 that would be needed for framewise annotation.</p>
+<p style="Normal" xid="76">* Evaluated their method using leave-one-out cross validation, to check for the robustness of their chosen hyper-parameters.</p>
+<p style="Normal" xid="77">* Have performance graph here</p>
+<p style="Normal" xid="78">* accuracy was 98.37% on average, which was more than 3% above the accuracy with support vector machines</p>
+<p style="Normal" xid="79"><c></c></p>
+<p style="Normal" xid="69"><c></c></p>
+<p style="Normal" xid="70"><c></c></p>
+<p style="Normal" xid="48"><c></c><c></c></p>
+<p style="Normal" xid="43">* Use two datasets: a stealth game gesture dataset, (self-created), and the Microsoft Research Cambridge 12-Kinect dataset. Both sets annotated.</p>
+<p style="Normal" xid="44">* </p>
+<p style="Normal" xid="38"><c></c><c></c></p>
+<p style="Normal" xid="35"><c></c></p>
+</section>
+</abiword>
