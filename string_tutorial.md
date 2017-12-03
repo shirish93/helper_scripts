@@ -42,6 +42,8 @@ console.log(str_arr.length)
 
 It prints out "APPLE" but with a weird character in beterrn. Nothing outrageous there, right?
 
+![Apple as Array](pic1.png)
+
 We see that the length of the string is six characters. All good there.
 
 Now write the most basic solidity program to store and retrieve a string. Use the samples you have from previous chapters if you must! It can be as simple as the following. It won't work in its current form, but it's a good point to start from!
@@ -68,13 +70,19 @@ contract test_string {
 
 Now try setting the string in your contract to the string `joined_str`. Make sure it goes through, with no errors. Now retrieve it by using it the getter function. Print out its length. Print it out in the console. Make sure you sent in the expected string.
 
+![App as drawing](app.png)
+
 Uh oh!
 
 We sent in one string to the setter, and it succefully set the value in the contract, with no errors. But now that when we're retrieving it, we get a different string! A shorter string, that's truncated right before the weird printed character. And we didn't get any warnings! What's happening?
 
+![Cut apple](cut_apple.png)
+
 The C programmers amongst you will realize that Solidity has null-terminated strings, without actually mentioning it anywhere in the documentation (and mentioning that strings are arrays at some point)! What that means is, whenever the virtual machine sees a character with the code of 0 (or a null string), it considers the string to have terminated, and stops reading beyond that point. Mind you, this happens without the documentation mentioning it anywhere -- Really -- search for 'null terminated' and "Solidity" on Google.
 
 Once you give it some thought, you begin realizing that this is a very reasonable approach. After all -- you want to minimize the number of operations in the Ethereum Virtual Machine. So instead of keeping track of how long a string is, it considers the null character as the string terminator. Whereas high-level languages like javascript and python spend a lot of resources doing book-keeping for strings, Solidity on EVM is scrappy, and does none of it! Now that we know, it's all well and good, right?
+
+![How Strings are Represented in JS/Python V C/Solidity](strings.png)
 
 Maybe not so! As of December 2017, Solidity is the most common EVM programming language, and the Web3 Javascript library is the most-commonly used library used to interact with the contracts. So when you're programming in Javascript, a programmer might expect strings in Solidity to behave fundamentally the same way as they do in Javascript. They'd be in a big surprise, though!
 
