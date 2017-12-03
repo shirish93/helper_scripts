@@ -13,8 +13,7 @@ http://solidity.readthedocs.io/en/develop/types.html
 
 
 #### Dynamically-sized byte array
-`
-string:
+`string:
     Dynamically-sized UTF-8-encoded string, see Arrays. Not a value-type!
 
 As a rule of thumb, use bytes for arbitrary-length raw byte data and string for arbitrary-length string (UTF-8) data.
