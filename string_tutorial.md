@@ -14,12 +14,12 @@ http://solidity.readthedocs.io/en/develop/types.html
 
 #### Dynamically-sized byte array
 
-`
+```
 String:
     Dynamically-sized UTF-8-encoded string, see Arrays. Not a value-type!
 
 As a rule of thumb, use bytes for arbitrary-length raw byte data and string for arbitrary-length string (UTF-8) data.
-`
+```
 
 Okay. What do we know from this? That strings are dynamic byte arrays, and it's (probably) not a good idea to store raw bytes in there. But of course, we're experienced programmers, why would we ever store raw bytes as strings anyway right?
 
