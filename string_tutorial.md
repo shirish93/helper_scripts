@@ -1,4 +1,4 @@
-#The Terminator Trick With Solidity Strings
+# The Terminator Trick With Solidity Strings
 
 
 In the course of programming in Solidity, you will want to interact with strings early on. After all, strings are the most interesting data types to interact with, and the most helpful, when you want to debug your programs.
