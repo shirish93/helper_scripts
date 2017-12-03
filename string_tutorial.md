@@ -12,14 +12,15 @@ In the course of programming in Solidity, you will want to interact with strings
 So lets go through 
 
 
-```
+`
+
 #### Dynamically-sized byte array
 string:
     Dynamically-sized UTF-8-encoded string, see Arrays. Not a value-type!
 
 As a rule of thumb, use bytes for arbitrary-length raw byte data and string for arbitrary-length string (UTF-8) data.
 
-```
+`
 let code_arr = [ 65, 80, 80, 0, 76, 69 ]
 code_arr.map(x=>String.fromCodePoint(x))
 let str_arr = [ "A", "P", "P", "\u0000", "L", "E" ]
@@ -27,9 +28,9 @@ console.log(str_arr.join(''))
 http://solidity.readthedocs.io/en/develop/types.html#arrays
 
 
-```
+`
 Arrays can have a compile-time fixed size or they can be dynamic. For storage arrays, the element type can be arbitrary (i.e. also other arrays, mappings or structs). For memory arrays, it cannot be a mapping and has to be an ABI type if it is an argument of a publicly-visible function.
-```
+`
 
 
 
